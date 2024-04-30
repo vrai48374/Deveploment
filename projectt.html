@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+    }
+    header{
+        background-color: white;
+        padding: 2px;
+        text-align: center;
+    }
+    .navlink{
+        display: inline;
+        padding: 20px;
+    }
+    .navlink a{
+        text-decoration: none;
+    }
+    .regestration{
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .directory{
+        text-align: center;
+    }
+    table{
+        text-align: center;
+        width: 100%;
+        border-collapse: collapse;
+        padding: 8px;
+    }
+    th,td{
+        border: 1px solid black;
+    }
+    .contact{
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+    <h1>Welcome to the company</h1>
+    <nav>
+        <ul>
+            <li class="navlink"><a href="#Employee-Regestration">Employee-Regestration</a></li>
+            <li class="navlink"><a href="#Employee-Directory">Employee-Directory</a></li>
+            <li class="navlink"><a href="#Contact-us">Contact us</a></li>
+        </ul>
+    </nav></header>
+    <img src="new3.jpeg" style="width:100%;height:max-content;" alt="">
+    <section id="Employee-Regestration" class="regestration">
+        <h2>Employee-Regestration</h2>
+        <p>Fill the below form</p>
+        <form>
+            <label for="Name">Enter the name</label>
+            <input type="text" placeholder="Enter the name" id="name"><br><br>
+            <label for="email">Enter the email</label>
+            <input type="email" id="email"><br><br>
+            <label for="password">Enetr the password</label>
+            <input type="password" placeholder="Enter the password" id="password"><br><br>
+            <label for="age">Enter your age</label>
+            <input type="number" id="age"><br><br>
+            <label for="role">Enter the role</label>
+            <select>
+                <option>software enginerr</option>
+                <option>manger</option>
+                <option>hr</option>
+                <option>designer</option>
+            </select><br><br>
+            <label for="joingingdate">joining date</label>
+            <input type="date" id="joingingdate"><br><br>
+            <input type="submit"><br><br>
+        </form>
+    </section>
+    <section id="Employee-Directory" class="directory">
+        <h2>Employee-Directory</h2>
+        <p>List of all register empolyee</p>
+        <table>
+            <tr>
+                <th>Employee ID</th>
+                <th>Employee name</th>
+                <th>Employee role</th>
+            <tr>
+                <td>169</td>
+                <td>vaibhav rai</td>
+                <td>software enginer</td>
+            </tr>
+            <tr>
+                <td>164</td>
+                <td>anurag</td>
+                <td>manger</td>
+            </tr>
+            <tr>
+                <td>168</td>
+                <td>aman</td>
+                <td>ceo</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>prashant</td>
+                <td>director</td>
+            </tr>
+            </tr>
+        </table>
+
+    </section>
+    <section id="Contact-us" class="contact">
+        <h2>Contact us</h2>
+        <p>If you want to Contact us you use our email address company@official.com or 7894656231 you can also visit
+            office in btween 9 am to 6pm </p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.717310997863!2d73.36084547559132!3d22.288695779695036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fda2400192473%3A0xc319c9237f2928e8!2sParul%20University!5e0!3m2!1sen!2sin!4v1714377050751!5m2!1sen!2sin"
+            width="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer>
+        <p>&copy;2024 Company name</p>
+    </footer>
+</body>
+
+</html>
